@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lato';
+    /* font-family: 'Lato'; */
   }
   
   h1,
@@ -171,7 +171,7 @@ body {
   }
   
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 1.75rem;
     line-height: 3rem;
   }
   
@@ -186,7 +186,7 @@ body {
       padding-bottom: 6rem;
     }
     header.masthead h1 {
-      font-size: 4.75em;
+      font-size: 1.75em;
       line-height: 4rem;
     }
     header.masthead h2 {
@@ -349,6 +349,10 @@ body {
   
   .bg-secondary {
     background-color: #2C3E50 !important;
+  }
+
+  .bg-tan {
+    background-color: tan !important;
   }
   
   .text-primary {

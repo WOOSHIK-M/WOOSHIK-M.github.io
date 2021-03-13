@@ -1,11 +1,11 @@
 .text-center {
-    text-align: unset !important;
+    text-align: unset;
 }
 
 
 header.masthead h1, header.masthead h1
 {
-    font-size: unset !important;
+    font-size: unset ;
     line-height: unset !important;
 }
 
@@ -71,7 +71,7 @@ header.masthead h1, header.masthead h1
 
 .header-left img {
     width: 100%;
-    /* margin-top: 19px; */
+    margin-top: 30px;
 }
 
 .hero__resume {
@@ -100,6 +100,7 @@ ul.address-text {
 }
   
 ul.address {
+    text-align: left;
     padding: 0;
 }
 
