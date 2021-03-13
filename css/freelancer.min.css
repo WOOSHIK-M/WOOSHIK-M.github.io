@@ -9,7 +9,7 @@ body {
   h5,
   h6 {
     font-weight: 700;
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat'; */
   }
   
   hr.star-light,
@@ -98,7 +98,7 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-weight: 700;
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat'; */
   }
   
   #mainNav .navbar-brand {
