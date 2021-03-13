@@ -1,0 +1,210 @@
+.clearfix:before,
+.clearfix:after,
+
+.text-center {
+    text-align: unset !important;
+}
+
+
+header.masthead h1, header.masthead h1
+{
+    font-size: unset !important;
+    line-height: unset !important;
+}
+
+.top-header {
+    padding: 1.5em 0 0 0;
+}
+
+.banner-info {
+    background: rgba(23, 20, 20, 0.58);
+    margin-top: 0em;
+}
+
+.header-right {
+    padding: 2em;
+}
+
+.header-right {
+    padding-left: 2em;
+}
+
+.header-right h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0.5em 0 0;
+    font-weight: bold;
+}
+
+.header-right h1 {
+    font-size: 1.2em;
+    color: #FFF;
+    background: #0288D1;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header-right h1:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: '';
+    bottom: -9px;
+    left: 12px;
+    border-style: solid;
+    border-width: 14px 11px 0 12px;
+    border-color: #0288D1 transparent transparent transparent;
+}
+
+.header-right h6 {
+    font-size: 1em;
+    /* color: #C7C7C7; */
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;;
+    letter-spacing: 3px;
+    /* text-transform: uppercase; */
+}
+
+.header-left {
+    padding: 2em;
+}
+
+.header-left img {
+    width: 100%;
+    /* margin-top: 19px; */
+}
+
+.hero__resume {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0.5em 1.5em i !important;
+    font-size: 1em;
+    color: #0288D1;
+    border: 2px solid #0288D1 !important;
+    text-decoration: none;
+    border-radius: 1.5em im !important;
+}
+
+.hero__resume:hover {
+    background: #0288D1;
+    color: #fff;
+}
+
+/* -- banner -- */
+ul.address-text {
+    padding: 0;
+}
+  
+ul.address {
+    padding: 0;
+}
+
+ul.address {
+    margin-top: 2em;
+    border-top: 1px solid #AFAFAF;
+    padding-top: 0.5em;
+}
+
+ul.address li {
+    display: block;
+}
+  
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 1.05em;
+    color: #fff;
+    margin-top: 1em;
+    font-weight: 400;
+}
+
+ul.address li ul.address-text li:nth-child(1) {
+    width: 20%;
+}
+  
+ul.address li ul.address-text li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.address li ul.address-text li a:hover {
+    color: #0288D1;
+}
+  
+ul.address-text b {
+    color: #fff;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left !important;
+}
+
+@media(max-width:991px) {
+    .header-left {
+        padding: 2em 2em 0em 0;
+        float: right;
+        width: 49%;
+    }
+
+    ul.address li ul.address-text li {
+        display: inline-block;
+        font-size: 0.9em;
+        margin-top: 1em;
+    }
+    ul.address li ul.address-text li:nth-child(1) {
+        width: 26%;
+    }
+
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left i !important;
+    }
+}
+
+@media(max-width:480px) {
+    .top-header {
+        padding: 0 0 0 0;
+    }
+
+    .header-right {
+        padding-left: 0em;
+        float: left;
+        width: 100%;
+        padding: 1em 1em 0em 1em;
+    }
+      .header-right h1 {
+        font-size: 1em;
+        padding: .4em 1em;
+    }
+
+    .header-left {
+        padding: 0em 1em 1em 1em;
+        float: right;
+        width: 100%;
+    }
+    .header-left img {
+        width: 100%;
+        margin-top: 3px;
+    }
+}
+
+@media(max-width:375px) {
+    .banner-info {
+      margin-top: 1.2em;
+    }
+}
+
+@media(max-width:320px) {
+    .header-right {
+        padding-left: 0em;
+        float: left;
+        width: 100%;
+        padding: 0.5em 0.5em 0em 0.5em;  
+    }
+}
